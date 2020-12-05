@@ -1,0 +1,14 @@
+[03-Dec-2020 07:44:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\GiftProduct\Block\MembershipRenewals' not found in /var/www/html/magento2/lib/internal/Magento/Framework/ObjectManager/Factory/AbstractFactory.php:111
+Stack trace:
+#0 /var/www/html/magento2/lib/internal/Magento/Framework/ObjectManager/Factory/Compiled.php(108): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject('Magento\\GiftPro...', Array)
+#1 /var/www/html/magento2/lib/internal/Magento/Framework/ObjectManager/ObjectManager.php(57): Magento\Framework\ObjectManager\Factory\Compiled->create('Magento\\GiftPro...', Array)
+#2 /var/www/html/magento2/lib/internal/Magento/Framework/View/Element/BlockFactory.php(45): Magento\Framework\ObjectManager\ObjectManager->create('Magento\\GiftPro...', Array)
+#3 /var/www/html/magento2/lib/internal/Magento/Framework/View/Layout/Generator/Block.php(257): Magento\Framework\View\Element\BlockFactory->createBlock('Magento\\GiftPro...', Array)
+#4 /var/www/html/magento2/lib/internal/Magento/Framework/View/Layout/Generator/Block.php(237 in /var/www/html/magento2/lib/internal/Magento/Framework/ObjectManager/Factory/AbstractFactory.php on line 111
+[03-Dec-2020 07:46:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\GiftProduct\Block\MembershipRenewals' not found in /var/www/html/magento2/lib/internal/Magento/Framework/ObjectManager/Factory/AbstractFactory.php:111
+Stack trace:
+#0 /var/www/html/magento2/lib/internal/Magento/Framework/ObjectManager/Factory/Compiled.php(108): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject('Magento\\GiftPro...', Array)
+#1 /var/www/html/magento2/lib/internal/Magento/Framework/ObjectManager/ObjectManager.php(57): Magento\Framework\ObjectManager\Factory\Compiled->create('Magento\\GiftPro...', Array)
+#2 /var/www/html/magento2/lib/internal/Magento/Framework/View/Element/BlockFactory.php(45): Magento\Framework\ObjectManager\ObjectManager->create('Magento\\GiftPro...', Array)
+#3 /var/www/html/magento2/lib/internal/Magento/Framework/View/Layout/Generator/Block.php(257): Magento\Framework\View\Element\BlockFactory->createBlock('Magento\\GiftPro...', Array)
+#4 /var/www/html/magento2/lib/internal/Magento/Framework/View/Layout/Generator/Block.php(237 in /var/www/html/magento2/lib/internal/Magento/Framework/ObjectManager/Factory/AbstractFactory.php on line 111

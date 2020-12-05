@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Solwin Infotech
+ *
+ * @category   Solwin
+ * @package    Solwin_Core
+ * @copyright  Copyright © 2006-2016 Solwin (https://www.solwininfotech.com)
+ * @license    https://www.solwininfotech.com/magento-extension-license/
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Config/etc/system_file.xsd">
+    <system>
+        <tab id="gift_product_tab" translate="label" sortOrder="100" class="solwin_solwin_logo">
+            <label>Gift Product</label>
+        </tab>
+        <section id="gift_section" translate="label" type="text" sortOrder="320" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Gift Setting</label>
+            <tab>gift_product_tab</tab>
+            <resource>Magento_GiftProduct::giftproduct</resource>
+            <group id="gift_group" translate="label" type="select" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General</label>
+                <field id="active" translate="label" type="select" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <!--Gift Date-->
+                <field id="gift_date" translate="label" type="text" sortOrder="7" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Gift Date Of Customer (days)</label>
+                </field>
+                <!--Gift Category -->
+                <field id="gift_category" translate="label" type="text" sortOrder="7" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Gift Category</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
